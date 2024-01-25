@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="assets/css/textRotate.css" />
   <link rel="stylesheet" href="assets/css/select2.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/form.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -557,7 +556,7 @@
                   <div class="st-form-field st-style1">
                     <label>Тип консультації</label>
                     <div class="st-custom-select-wrap">
-                      <select name="service_type" class="st_select1" id="udoctor" data-placeholder="Виберіть тип консультації">
+                      <select name="type" class="st_select1" id="udoctor" data-placeholder="Виберіть тип консультації">
                         <option></option>
                         <option value="Лікар психіатр 1,2 категорії. Акція - 499 грн">Лікар психіатр 1,2 категорії. Акція - 499 грн</option>
                         <option value="Лікар психіатр вищої категорії. Акція - 799 грн">Лікар психіатр вищої категорії. Акція - 799 грн</option>
@@ -572,12 +571,7 @@
                     <textarea cols="30" rows="10" id="umsg" name="textinfo" placeholder="Напиши тут щось..."></textarea>
                   </div>
                 </div>
-                <div class="col-lg-12 form-checkbox">
-                  <input class="form-check-input" type="checkbox" value="checked" name="check_box" checked ="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    Я погоджуюсь на обробку персональних даних
-                  </label>
-                </div>
+
                 <div class="col-lg-12">
                   <a onclick="btnClick()" id="formbtn" class="st-btn st-style1 st-color1 st-size-medium" >Відправити запит</a>
                 </div>
@@ -1121,8 +1115,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    
-    // Получаем текущую дату
+      // Получаем текущую дату
       const currentDate = new Date();
   
       // Получаем дату завтра
