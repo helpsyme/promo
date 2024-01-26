@@ -79,7 +79,7 @@ function btnClick() {
     // AJAX
     $.ajax({
         crossDomain: true,
-        url: 'https://script.google.com/macros/s/AKfycbxlN4OJ6x8loTLn8usGiTKRqdKx_msKrsjCJV6dykQbRZAlwhn1v606hO61gr3-MJkvWA/exec',
+        url: 'https://script.google.com/macros/s/AKfycbwIsEhmHibYVKbdfeDAiKn9hnXtGsGADdNR45zNLee2qI3aONSpjX0XSuzWTKzJchzAOw/exec',
         method: 'POST',
         data: formData,
         processData: false,
@@ -93,7 +93,7 @@ function btnClick() {
             var errorMessage = "Заявку прийнято!";
             $("#alert").html('<strong>Повідомлення:</strong> ' + errorMessage + '<button type="button" class="btn-close" onclick="closealertwindow()"></button>').removeClass("fade").addClass("show");
         
-            window.location = "thank-you-page.html";
+            // window.location = "https://google.com";
         },
         
         error: function(xhr, textStatus, errorThrown) {
