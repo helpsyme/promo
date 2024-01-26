@@ -118,14 +118,8 @@ function btnClick() {
 function getCid() {
     var match = document.cookie.match('(?:^|;)\\s*_ga=([^;]*)');
     var raw = (match) ? decodeURIComponent(match[1]) : null;
-    if (raw)
-    {
-            match = raw.match(/(\d+\.\d+)$/);
-    }
-    var gacid = (match) ? match[1] : null;
-    if (gacid)
-    {
-            return gacid;
+    if (raw) {
+        return raw;
     }
 }
 
