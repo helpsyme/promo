@@ -110,30 +110,31 @@
               Кваліфікована допомога в лікуванні психічних порушень</div>
             <div class="st-hero-btn">
               <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move sign_up_for_a_consultation_btn" id="">Запис на консультацію</a>
-            </div>
+            </div>          
           </div>
         </div>
-        <div class="st-hero-social-group">
+        <div class="st-hero-social-group pb-5">
           <div class="container">
             <ul class="st-social-btn st-style1 st-mp0">
-                  <li><a class="telegram_btn" href="https://t.me/helpsyme" target="_blank"><i class="fab fa-telegram"></i></a></li>
-                  <li><a class="viber_btn"href="viber://chat?number=%2B380665349066"><i class="fab fa-viber"></i></a></li>
-                  <li><a class="mailto_btn"href="mailto:contact@helpsy.me?subject=Звернення%20із%20сайту%20helpsy.me"><i class="fa fa-envelope"></i></a></li>
+                  <li><a class="telegram_btn" href="https://t.me/helpsyme" target="_blank"><i class="fab fa-telegram  fa-2x"></i></a></li>
+                  <li><a class="viber_btn" href="viber://chat?number=+380665349066"><i class="fab fa-viber  fa-2x"></i></a></li>
+                  <li><a class="mailto_btn"href="mailto:contact@helpsy.me?subject=Звернення%20із%20сайту%20helpsy.me"><i class="fa fa-envelope  fa-2x"></i></a></li>
             </ul>
           </div>
         </div>
+
       </div>
       <div class="st-slider st-style1 st-hero-slider2" id="home">
         <div class="slick-container" data-autoplay="1" data-loop="1" data-speed="800" data-autoplay-timeout="1000" data-center="0" data-slides-per-view="1" data-fade-slide="1">
           <div class="slick-wrapper">
             <div class="slick-slide-in">
               <div class="st-hero-img">
-                <img src="assets/img/hero-bg1.jpg" alt="helpsy.me">
+                <img src="assets/img/hero-bg1.jpg" alt="helpsy.me"  class="d-sm-block">
               </div>
             </div>
             <div class="slick-slide-in">
               <div class="st-hero-img">
-                <img src="assets/img/hero-bg6.jpg" alt="helpsy.me">
+                <img src="assets/img/hero-bg6.jpg" alt="helpsy.me" class="d-sm-block">
               </div>
             </div>
            
@@ -832,7 +833,7 @@
                   <div class="st-funfact-icon st-green-box">
                     <i class="fa-solid fa-hand-holding-heart"></i>
                   </div>
-                  <h2 class="st-funfact-number st-counter">235</h2>
+                  <h2 class="st-funfact-number st-counter">567</h2>
                   <div class="st-funfact-title">Проведено консультацій</div>
                 </div>
                 <div class="st-height-b30 st-height-lg-b30"></div>
@@ -852,17 +853,16 @@
                   <div class="st-funfact-icon st-dip-blue-box">
                     <i class="fa-solid fa-users-line"></i>
                    </div>
-                  <h2 class="st-funfact-number st-counter">54</h2>
+                  <h2 class="st-funfact-number st-counter">154</h2>
                   <div class="st-funfact-title">Постійних клієнтів</div>
                 </div>
                 <div class="st-height-b30 st-height-lg-b30"></div>
               </div><!-- .col -->
             </div>
           </div>
-          <div class="col-xl-6 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
+          <div class="col-xl-6 wow fadeInRight d-md-none" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <div class="st-video-block st-style1 st-zoom">
               <div class="st-video-block-img st-zoom-in st-dynamic-bg" data-src="assets/img/video-block-img.jpg"></div>
-
             </div>
           </div><!-- .col -->
         </div>
@@ -1147,12 +1147,9 @@
           const discountMessage = `
               <p><strong>Тільки сьогодні на онлайн консультації діє знижка!</strong></p><br>
               <p style="color:#19B3AC">Консультація Лікаря психіатра 1,2 категорії: <h4><strike><span style="color:#19B3AC">1500<span></strike> 499 грн</h4><br>
-              <p style="color:#19B3AC">Консультація Лікаря психіатра вищої категорії: <h4><strike><span style="color:#19B3AC">2000<span></strike> 799 грн</h4><br>
-              <p style="color:#19B3AC">Консультація Лікаря психіатра вищої категорії (професор, кмн): <h4><strike><span style="color:#19B3AC">3500<span></strike> 1499 грн</h4><br>
               <p style="color:red;"><b>Знижка діє на запис до ${formattedTomorrowDate}</b></p>
               `;
-  
-          // Показываем SweetAlert2 с сообщением и кнопками, устанавливая цвета кнопок и настройки
+         
           Swal.fire({
               title: 'Спеціальна пропозиція!',
               html: discountMessage,
