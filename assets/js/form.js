@@ -52,6 +52,7 @@ function validateForm() {
     return true; // Продолжить отправку формы
 }
 
+// ?utm_source=utm_source_test&utm_medium=utm_medium_test&utm_campaign=utm_campaign_test&utm_content=utm_content_test&utm_term=utm_term_test&gclid=gclid_test
 function btnClick() {
     // Перед отправкой формы вызовите функцию validateForm
     if (validateForm()) {
@@ -60,11 +61,22 @@ function btnClick() {
     let form = document.getElementById('contactform');
     let formData = new FormData(form);
 
-    formData.append('utm_source', getParameterByName('utm_source'));
-    formData.append('utm_medium', getParameterByName('utm_medium'));
-    formData.append('utm_campaign', getParameterByName('utm_campaign'));
-    formData.append('utm_content', getParameterByName('utm_content'));
-    formData.append('utm_term', getParameterByName('utm_term'));
+    // formData.append('utm_source', getParameterByName('utm_source'));
+    // formData.append('utm_medium', getParameterByName('utm_medium'));
+    // formData.append('utm_campaign', getParameterByName('utm_campaign'));
+    // formData.append('utm_content', getParameterByName('utm_content'));
+    // formData.append('utm_term', getParameterByName('utm_term'));
+    // formData.append('gclid', getParameterByName('gclid'));
+    
+    var storedParamsJSON = localStorage.getItem("pageParams");
+    var storedParams = JSON.parse(storedParamsJSON) || {};
+
+    formData.append('utm_source', storedParams['utm_source'] || '');
+    formData.append('utm_medium', storedParams['utm_medium'] || '');
+    formData.append('utm_campaign', storedParams['utm_campaign'] || '');
+    formData.append('utm_content', storedParams['utm_content'] || '');
+    formData.append('utm_term', storedParams['utm_term'] || '');
+    formData.append('gclid', storedParams['gclid'] || '');
 
     // Устанавливаем значения sub_1 до sub_6 в 'none'
     for (var i = 1; i <= 6; i++) {
@@ -79,13 +91,14 @@ function btnClick() {
     // AJAX
     $.ajax({
         crossDomain: true,
-        url: 'https://script.google.com/macros/s/AKfycbxlN4OJ6x8loTLn8usGiTKRqdKx_msKrsjCJV6dykQbRZAlwhn1v606hO61gr3-MJkvWA/exec',
+        url: 'https://script.google.com/macros/s/AKfycbwebTh9LlEn0uul-CCPlI0LYugs8vmXvhaq-k-88EMGj6RRNASZAbS_SwElfhJ5W2ubwA/exec',
         method: 'POST',
         data: formData,
         processData: false,
         contentType: false,
         timeout: 30000, // Таймаут в миллисекундах (30 секунд)
-    
+        
+
         success: function (data) {
             $(".st-perloader").fadeOut();
             $("st-perloader-in").delay(150).fadeOut("slow");
