@@ -3,5 +3,9 @@
 @media (max-width: 576px) {
     .mobile-none {
         display: none;
+        
+    }
+    .custom-slider {
+        background-color: rgba(128, 128, 128, 0.092);
     }
   }
