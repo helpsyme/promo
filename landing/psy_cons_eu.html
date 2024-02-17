@@ -593,7 +593,7 @@
                     <div class="st-custom-select-wrap">
                       <select name="service_type" class="st_select1" id="udoctor" data-placeholder="Виберіть тип консультації">
                         <option></option>
-                        <option value="Лікар психіатр 1,2 категорії. Акція - 799 грн">Лікар психіатр 1,2 категорії. Акція - 799 грн</option>
+                        <option value="Лікар психіатр 1,2 категорії. Акція - 799 грн">Лікар психіатр 1,2 категорії. Акція - 599 грн</option>
                         <option value="Лікар психіатр вищої категорії. Акція - 1199 грн">Лікар психіатр вищої категорії. Акція - 1199 грн</option>
                         <option value="Консультація професора. Акція - 2499 грн">Консультація професора. Акція - 2499 грн</option>
                         <option value="Виписка рецепту - 249 грн">Виписка рецепту - 249 грн</option>
@@ -908,7 +908,7 @@
               <div class="slick-slide-in">
                 <div class="st-pricing-table st-style1">
                   <div class="st-pricing-head">
-                    <h2 class="st-price"><strike style="color: gray;">1500</strike> 799 грн</h2>
+                    <h2 class="st-price"><strike style="color: gray;">1500</strike> 599 грн</h2>
                     <img src="/assets/img/shape/price-shape.svg" alt="shape" class="st-pricing-head-shape">
                   </div><!-- .st-pricing-head -->
                   <div class="st-pricing-feature">
@@ -1150,7 +1150,7 @@
   
       // Получаем дату завтра
       const tomorrowDate = new Date(currentDate);
-      tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+      tomorrowDate.setDate(tomorrowDate.getDate() + 0);
   
       // Форматируем дату в виде "день.месяц.год"
       const formattedTomorrowDate = tomorrowDate.toLocaleDateString('ru-RU');
@@ -1160,8 +1160,8 @@
           // Создаем сообщение о скидке с использованием HTML
           const discountMessage = `
               <p><strong>Тільки сьогодні на онлайн консультації діє знижка!</strong></p><br>
-              <p style="color:#19B3AC">Консультація Лікаря психіатра 1,2 категорії: <h4><strike><span style="color:#19B3AC">1500<span></strike> 799 грн</h4><br>
-              <p style="color:red;"><b>Знижка діє на запис до ${formattedTomorrowDate}</b></p>
+              <p style="color:#19B3AC">Консультація Лікаря психіатра 1,2 категорії: <h4><strike><span style="color:#19B3AC">1500<span></strike> 599 грн</h4><br>
+              <h3 style="color:red;"><b>Знижка діє до ${formattedTomorrowDate}</b></h3>
               `;
          
         
