@@ -1150,7 +1150,7 @@
   
       // Получаем дату завтра
       const tomorrowDate = new Date(currentDate);
-      tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+      tomorrowDate.setDate(tomorrowDate.getDate() + 0);
   
       // Форматируем дату в виде "день.месяц.год"
       const formattedTomorrowDate = tomorrowDate.toLocaleDateString('ru-RU');
@@ -1161,7 +1161,7 @@
           const discountMessage = `
               <p><strong>Тільки сьогодні на онлайн консультації діє знижка!</strong></p><br>
               <p style="color:#19B3AC">Консультація Лікаря психіатра 1,2 категорії: <h4><strike><span style="color:#19B3AC">1500<span></strike> 599 грн</h4><br>
-              <p style="color:red;"><b>Знижка діє на запис до ${formattedTomorrowDate}</b></p>
+              <h3 style="color:red;"><b>Знижка діє до ${formattedTomorrowDate}</b></h3>
               `;
          
         
