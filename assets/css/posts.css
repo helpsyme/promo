@@ -1,0 +1,23 @@
+.link_btn {
+    background-color: #01B8B6;
+    color: white;
+    transition: transform 0.3s; /* Добавляем плавный переход для свойства transform */
+}
+
+.link_btn:hover {
+    color: white;
+    transform: scale(1.05); /* Увеличиваем размер кнопки на 5% */
+}
+
+.link_btn_city {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #01b8b5;
+    color: white;
+    transition: transform 0.3s; /* Добавляем плавный переход для свойства transform */
+}
+
+p a {
+    color:#01b8b5;
+}
