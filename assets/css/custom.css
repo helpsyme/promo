@@ -4,7 +4,25 @@
     margin-bottom: 15px;
 }
 
+.card {
+    transition: box-shadow 0.3s ease-in-out; /* Плавний перехід тіні */
+    background-color: #01b8b50c;
+    border: 0;
+}
 
+.card:hover {
+    box-shadow: 0 0 10px #01b8b59a; /* Тінь при наведенні */
+}
+
+.cat-card-title {
+    color: #01B8B6;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
 @media (max-width: 576px) {
     .mobile-none {

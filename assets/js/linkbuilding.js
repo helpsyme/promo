@@ -12,11 +12,11 @@ contentHTML = contentHTML.replaceAll("консультації з психіат
 contentHTML = contentHTML.replaceAll("Психіатричні консультації онлайн", "<a href='https://helpsy.me/'>Психіатричні консультації онлайн</a>");
 contentHTML = contentHTML.replaceAll("онлайн-консультацій психіатра", "<a href='https://helpsy.me/'>консультація психіатра онлайн</a>");
 contentHTML = contentHTML.replaceAll("Онлайн-консультація психіатра", "<a href='https://helpsy.me/'>Консультація психіатра онлайн</a>");
-contentHTML = contentHTML.replaceAll("депресія причини", "<a href='https://helpsy.me/'>депресія причини</a>");
-contentHTML = contentHTML.replaceAll("депресія симптоми", "<a href='https://helpsy.me/'>депресія симптоми</a>");
-contentHTML = contentHTML.replaceAll("Депресія", "<a href='https://helpsy.me/'>Депресія</a>");
-contentHTML = contentHTML.replaceAll("депресія", "<a href='https://helpsy.me/'>депресія</a>");
-contentHTML = contentHTML.replaceAll("депресії", "<a href='https://helpsy.me/'>депресії</a>");
+contentHTML = contentHTML.replaceAll("депресія причини", "<a href='/depression.html'>депресія причини</a>");
+contentHTML = contentHTML.replaceAll("депресія симптоми", "<a href='/depression.html'>депресія симптоми</a>");
+contentHTML = contentHTML.replaceAll("Депресія", "<a href='/depression.html'>Депресія</a>");
+contentHTML = contentHTML.replaceAll("депресія", "<a href='/depression.html'>депресія</a>");
+contentHTML = contentHTML.replaceAll("депресії", "<a href='/depression.html'>депресії</a>");
 
 // Обновляем текстовое содержимое элемента с замененными данными
 postContent.innerHTML = contentHTML;

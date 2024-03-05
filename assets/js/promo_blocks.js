@@ -10,7 +10,7 @@ $(document).ready(function () {
       $("#promo_btn_3").load("../promo/promo_btn_3.html");
       $("#ua_cities").load("ua_cities.html");
       $("#links").load("links.html");
-      $("#top_menu").load("top_menu.html");
-      $("#footer_menu").load("footer_menu.html");
+      $("#top_menu").load("../parts/top_menu.html");
+      $("#footer_menu").load("../parts/footer_menu.html");
       
     });
