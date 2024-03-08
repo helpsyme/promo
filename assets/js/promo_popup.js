@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Создаем сообщение о скидке с использованием HTML
     const discountMessage = `
             <p><strong>Тільки сьогодні на онлайн консультації діє Акція!</strong></p><br>
-            <p style="color:#19B3AC">Онлайн Консультація Лікаря Психіатра: <h4><strike><span style="color:#19B3AC">1500<span></strike> 500 грн</h4><br>
+            <p style="color:#19B3AC">Онлайн Консультація Лікаря Психіатра: <h4><strike><span style="color:#19B3AC">1500<span></strike> 750 грн</h4><br>
             <h3 style="color:red;"><b>Акція діє до ${formattedTomorrowDate}</b></h3>
             `;
     Swal.fire({
