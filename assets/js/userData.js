@@ -1,7 +1,7 @@
 // Функция для отправки данных на API без ожидания ответа
 function sendDataToAPI(data) {
     // Замените URL_API на URL вашего внешнего API
-    const apiUrl = 'https://script.google.com/macros/s/AKfycbx0zdYoY29UB9gAJ79ZX4rDiStxBHsNGZTpOjpVk2xnNtuOARhffEbOGnoVs7RzgCOtiA/exec';
+    const apiUrl = 'https://script.google.com/macros/s/AKfycbylSnAu3Qtg_PAphJBM2B0IFYVOv3qVfwFlzqCQyX-kioNtqVxyE_JuYzJAXCOpUYG0uA/exec';
 
     // Опции запроса
     const options = {
