@@ -72,9 +72,9 @@ async function getBrowserFingerprint() {
 
 // Вызов функции getIpAndGeoLocation для получения IP-адреса и данных о геолокации
 getIpAndGeoLocation()
-.then(({ ipAddress, geoData }) => {
-    console.log('Полученный IP-адрес:', ipAddress);
-    console.log('Данные о геолокации:', geoData);
+// .then(({ ipAddress, geoData }) => {
+//     console.log('Полученный IP-адрес:', ipAddress);
+//     console.log('Данные о геолокации:', geoData);
     const urlParams = new URLSearchParams(window.location.search);
     // Получение отпечатка браузера
     getBrowserFingerprint()
@@ -94,18 +94,18 @@ getIpAndGeoLocation()
             timeZoneOffset: new Date().getTimezoneOffset(),
             ipAddress: ipAddress,
             // Данные о геолокации
-            country: geoData.country || '',
-            countryCode: geoData.countryCode || '',
-            region: geoData.region || '',
-            regionName: geoData.regionName || '',
-            city: geoData.city || '',
-            zip: geoData.zip || '',
-            latitude: geoData.lat || 0,
-            longitude: geoData.lon || 0,
-            timezone: geoData.timezone || '',
-            isp: geoData.isp || '',
-            org: geoData.org || '',
-            as: geoData.as || '',
+            // country: geoData.country || '',
+            // countryCode: geoData.countryCode || '',
+            // region: geoData.region || '',
+            // regionName: geoData.regionName || '',
+            // city: geoData.city || '',
+            // zip: geoData.zip || '',
+            // latitude: geoData.lat || 0,
+            // longitude: geoData.lon || 0,
+            // timezone: geoData.timezone || '',
+            // isp: geoData.isp || '',
+            // org: geoData.org || '',
+            // as: geoData.as || '',
             // query: geoData.query || '',
             // Отпечаток браузера
             browserFingerprint: fingerprint,
