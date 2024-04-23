@@ -1,75 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://helpsy.me/</loc>
-      <lastmod>2024-02-12</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/</loc>
+      <lastmod>2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/consultation-psychiatrist</loc>
-      <lastmod>2024-03-04</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/index_ua</loc>
+      <lastmod>2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/psychiatrist-online</loc>
-      <lastmod>2024-03-04</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/depression</loc>
+      <lastmod>2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/consultation-psychiatrist-online</loc>
-      <lastmod>2024-03-04</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/depression-lechenie</loc>
+      <lastmod>2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/psychiatrist-online-kiev</loc>
-      <lastmod>2024-03-04</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/depression-poslerodovaya</loc>
+      <lastmod>2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/depression-prichini</loc>
-      <lastmod>2024-03-05</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/depression-prichini</loc>
+      <lastmod>2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/depression-lechenie</loc>
-      <lastmod>2024-03-06</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/obsessivno-kompulsivnoe-rasstroystvo</loc>
+      <lastmod>2024-2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/depression</loc>
-      <lastmod>2024-03-06</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/rasstroystva-pishchevogo-povedeniya</loc>
+      <lastmod>2024-2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://helpsy.me/posts/depression-poslerodovaya</loc>
-      <lastmod>2024-03-07</lastmod>
+      <loc>https://psikhiatr-onlayn.kiev.ua/trevozhno-fobicheskie-rasstroystva</loc>
+      <lastmod>2024-2024-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
-   <url>
-      <loc>https://helpsy.me/posts/tfr</loc>
-      <lastmod>2024-03-07</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://helpsy.me/posts/okr</loc>
-      <lastmod>2024-03-07</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://helpsy.me/posts/rpp</loc>
-      <lastmod>2024-03-08</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </url>
+   
 </urlset>
