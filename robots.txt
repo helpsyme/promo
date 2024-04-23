@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /landing/
 
-Sitemap: https://helpsy.me/sitemap.xml
+Sitemap: https://psikhiatr-onlayn.kiev.ua/sitemap.xml
