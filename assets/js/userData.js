@@ -16,9 +16,9 @@ function sendDataToAPI(data) {
 fetch(apiUrl, options)
     .then(response => {
     if (response.ok) {
-        console.log('Данные успешно отправлены на API');
+        // console.log('Данные успешно отправлены на API');
     } else {
-        console.error('Произошла ошибка при отправке данных на API');
+        // console.error('Произошла ошибка при отправке данных на API');
     }
     })
     .catch(error => {
@@ -79,10 +79,10 @@ const urlParams = new URLSearchParams(window.location.search);
 
 getIpAddress()
     .then(ipAddress => {
-        console.log('IP-адрес пользователя:', ipAddress);
+        // console.log('IP-адрес пользователя:', ipAddress);
         getBrowserFingerprint()
             .then(fingerprint => {
-                console.log('Отпечаток браузера:', fingerprint);
+                // console.log('Отпечаток браузера:', fingerprint);
 
                 // Создание объекта visitData с учетом IP-адреса, данных о геолокации и отпечатка браузера
                 const visitData = {
@@ -113,9 +113,9 @@ getIpAddress()
                 sendDataToAPI(visitData);
             })
             .catch(error => {
-                console.error('Произошла ошибка при получении отпечатка браузера:', error);
+                // console.error('Произошла ошибка при получении отпечатка браузера:', error);
             });
     })
     .catch(error => {
-        console.error('Произошла ошибка при получении IP-адреса пользователя:', error);
+        // console.error('Произошла ошибка при получении IP-адреса пользователя:', error);
     });
