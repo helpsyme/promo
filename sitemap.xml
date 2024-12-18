@@ -2,55 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/index.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/index_ua.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://psikhiatr-onlayn.kiev.ua/doc_kotenko.html</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://psikhiatr-onlayn.kiev.ua/doc_kotenko_ru.html</loc>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/depression.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/depression-lechenie.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/depression-poslerodovaya.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/depression-prichini.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/obsessivno-kompulsivnoe-rasstroystvo.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/rasstroystva-pishchevogo-povedeniya.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/trevozhno-fobicheskie-rasstroystva.html</loc>
-      <lastmod>2024-04-24</lastmod>
+      <lastmod>2024-12-18</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
