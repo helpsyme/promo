@@ -675,7 +675,7 @@
               пациентов.</p>
           </div>
           <div class="st-hero-btn p-3 text-center">
-            <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
+            <a href="/doc_kotenko_ru.html" class="st-btn st-style1 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
               id="">Записаться</a>
           </div>
         </div>
@@ -812,11 +812,14 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
-                    <label for="udate">Дата консультации</label>
-                    <input name="date" type="text" id="udate" placeholder="дд/мм/рр">
-                    <div class="form-field-icon"><i class="fa fa-calendar"></i></div>
+                    <label for="udate">Желаемая дата консультации</label>
+                    <div class="st-custom-select-wrap">
+                      <select name="date" id="udate" class="st_select1" data-placeholder="Выберите дату консультации">
+                      </select>
+                    </div>
                   </div>
                 </div>
+  
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label for="udepartment">Ваша проблема</label>
@@ -1470,7 +1473,7 @@
   <script src="./assets/js/form.js"></script>
   <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.min.js"></script>
   <script src="./assets/js/promo_popup.js"></script>
-
+  <script src="./assets/js/form_dates.js"></script>
   
   <script src="./assets/js/userData.js"></script>
   
