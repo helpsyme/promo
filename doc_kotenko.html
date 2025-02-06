@@ -586,104 +586,28 @@
           <div class="st-seperator-center"><img src="assets/img/logo_small.png" alt="icon"></div>
           <div class="st-seperator-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s"></div>
         </div>
-        <div class="st-section-heading-subtitle">Онлайн Запис на Консультацію до лікаря психіатра Котенка Анастасії Олександрівні</div>
+        <div class="st-section-heading-subtitle">Щоб записатися на консультацію до Котенко Анастасії Олександрівни, скористайтеся Telegram чат-ботом за посиланням нижче або QR-кодом.</div>
       </div>
       <div class="st-height-b40 st-height-lg-b40"></div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <form method="POST" class="st-appointment-form" id="contactform">
-            <div id="st-alert1"></div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="st-form-field st-style1">
-                  <label for="uname">Ім'я</label>
-                  <input type="text" id="uname" name="name" placeholder="Ольга Тимощенко" required>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="st-form-field st-style1">
-                  <label for="uemail">Адреса електронної пошти</label>
-                  <input type="text" id="uemail" name="email" placeholder="example@gmail.com" required>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="st-form-field st-style1">
-                  <label for="unumber">Номер телефону (Viber, Telegram)</label>
-                  <input type="text" id="unumber" name="phone" placeholder="+38(000)1234567" required>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="st-form-field st-style1">
-                  <label for="udate">Бажана дата консультації</label>
-                  <div class="st-custom-select-wrap">
-                    
-                    <select name="date" id="udate" class="st_select1" data-placeholder="Виберіть дату консультації">
-                        
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="st-form-field st-style1">
-                  <label for="udepartment">Ваша проблема</label>
-                  <div class="st-custom-select-wrap">
-                    <select name="service" id="udepartment" class="st_select1" data-placeholder="Виберіть проблему">
-                      <option></option>
-                      <option value="Депресія">Депресія</option>
-                      <option value="Тривожно-фобічні розлади">Тривожно-фобічні розлади</option>
-                      <option value="Обсесивно-компульсивний розлад">Обсесивно-компульсивний розлад</option>
-                      <option value="Розлади харчової поведінки">Розлади харчової поведінки</option>
-                      <option value="інше">інше</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <!-- DOC -->
-              <div class="col-lg-6">
-                <div class="st-form-field st-style1" id="udoctorContainer">
-                  <label for="udoctor">Лікар</label>
-                  <div class="st-custom-select-wrap">
-                    <select name="service_type" class="st_select1" id="udoctor"
-                      data-placeholder="Виберіть лікаря">
-                      
-                      <option selected value="Анастасія Котенко (1500 грн)">Анастасія Котенко – 1500 грн
-                      </option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <!-- DOC -->
-              <div class="col-lg-12">
-                <div class="st-form-field st-style1">
-                  <label for="textinfo">Повідомлення</label>
-                  <textarea cols="30" rows="10" id="umsg" name="textinfo" placeholder="Напиши тут щось..."></textarea>
-                </div>
-              </div>
-              <div class="col-lg-12 form-checkbox">
-                <input class="form-check-input" type="checkbox" value="checked" name="check_box"
-                  checked="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Я погоджуюсь на обробку персональних даних та з <a href="pp_ua.html">користувальницькою угодою</a>
-                </label>
-              </div>
+    <!-- TG_BOT -->
+    <div class="container text-center">
+        <div class="row align-items-center justify-content-center">
+          
+          <!-- Ссылка на Telegram бот -->
+          <div class="col-lg-5 col-12 d-flex justify-content-center mt-3 mt-lg-0">
+            <a id="consultation_btn_depression" href="https://t.me/PsyOnlineHelpBot" class="st-btn st-style1 st-size-medium st-color1 sign_up_for_a_consultation_btn" target="_blank">
+              Перейти в Telegram чат-бот
+            </a>
+          </div>
 
-              <div class="alert alert-danger alert-dismissible fade" id="alert">
-              </div>
-
-              <input hidden name="template" value="kotenko_page_ru">
-
-              <div class="col-lg-12">
-                <a onclick="btnClick()" id="formbtn"
-                  class="st-btn st-style1 st-color1 st-size-medium btn_submit_form">Надіслати запит</a>
-              </div>
-            </div>
-          </form>
-
+          <!-- Изображение QR-кода -->
+          <div class="col-lg-5 col-12 d-flex justify-content-center">
+            <img src="assets/img/qr_tg_bot.png" class="rounded" alt="QR Telegram Bot">
+          </div>
         </div>
       </div>
-    </div>
+      <!-- TG_BOT -->
   </section>
 
   <section>
