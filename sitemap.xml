@@ -8,7 +8,34 @@
    </url>
    <url>
       <loc>https://psikhiatr-onlayn.kiev.ua/index_ua.html</loc>
-      <lastmod>2024-12-18</lastmod>
+      <lastmod>2025-08-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+      <url>
+      <loc>https://psikhiatr-onlayn.kiev.ua/psy_shemetov.html</loc>
+      <lastmod>2025-08-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   </url>
+      <url>
+      <loc>https://psikhiatr-onlayn.kiev.ua/psy_shemetov_ru.html</loc>
+      <lastmod>2025-08-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   </url>
+      <url>
+      <loc>https://psikhiatr-onlayn.kiev.ua/doc_grinberg.html</loc>
+      <lastmod>2025-08-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   </url>
+      <url>
+      <loc>https://psikhiatr-onlayn.kiev.ua/doc_grinberg_ru.html</loc>
+      <lastmod>2025-08-26</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
