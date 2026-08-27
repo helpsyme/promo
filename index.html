@@ -67,7 +67,33 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-M7PLGQD9');</script>
   <!-- End Google Tag Manager -->
+  <style>
+    /* Эффект при наведении на карточку доктора */
+.st-doctor-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.st-doctor-card:hover {
+  transform: translateY(-5px); /* Приподнимает карточку */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Добавляет мягкую тень */
+  border-color: #13B3AC; /* Меняет цвет рамки на ваш брендовый */
+}
+
+/* Убираем подчеркивание со ссылки, которая растянута на всю карточку */
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+  </style>
 </head>
+
 
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -647,119 +673,103 @@
     </section>
     <!-- End department Section -->
 
-    <!-- DOCTORS -->
-    <section id="doctors">
-      <div class="st-height-b120 st-height-lg-b80"></div>
-      <div class="container">
-        <div class="st-section-heading st-style1">
-          <h2 class="st-section-heading-title">Консультуючі фахівці</h2>
-          <div class="st-seperator">
-            <div class="st-seperator-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s"></div>
-            <div class="st-seperator-center"><img src="assets/img/logo_small.png" alt="icon"></div>
-            <div class="st-seperator-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s"></div>
-          </div>
-          <div class="st-section-heading-subtitle">На нашій платформі консультують практикуючі фахівці провідних
-            психіатричних центрів України, поєднуючи свою основну професійну діяльність з онлайн-консультаціями</div>
-        </div>
-        <div class="st-height-b40 st-height-lg-b40"></div>
+
+<!-- DOCTORS -->
+<section id="doctors">
+  <div class="st-height-b120 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h2 class="st-section-heading-title">Спеціалісти, які консультують</h2>
+      <div class="st-seperator">
+        <div class="st-seperator-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s"></div>
+        <div class="st-seperator-center"><img src="assets/img/logo_small.png" alt="icon"></div>
+        <div class="st-seperator-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s"></div>
       </div>
+      <div class="st-section-heading-subtitle">На нашій платформі консультують практикуючі фахівці провідних
+        психіатричних центрів України, поєднуючи свою основну професійну діяльність з онлайн-консультаціями</div>
+    </div>
+    <div class="st-height-b40 st-height-lg-b40"></div>
+  </div>
 
-      <div class="container d-flex justify-content-center flex-wrap">
-        <!-- doc -->
-        <div class="card m-3 col-12 col-sm-6 col-md-3">
-          <img src="assets/img/doc/shemetov.jpg" class="card-img-top" alt="Психолог Павло Шеметов">
-          <div class="card-body">
-            <h4 style="color: #13B3AC;">Павло Шеметов</h4>
-            <p class="card-text">Психолог та засновник центру HELPSY. Спеціалізується на подоланні професійного вигорання, управлінні стресом та пошуку балансу. Допомагає відновити ментальний ресурс та впевненість у прийнятті рішень.</p>
-          </div>
-          <div class="st-hero-btn p-3 text-center">
-            <a href="/psy_shemetov.html" class="st-btn st-style1 st-color1 st-smooth-move sign_up_for_a_consultation_btn">Записатись</a>
-          </div>
-        </div>
-        <!-- doc -->
-        <!-- doc -->
-        <div class="card m-3 col-12 col-sm-6 col-md-3">
-          <img src="assets/img/doc/5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 style="color: #13B3AC;">Тетяна Лисенко</h4>
-            <p class="card-text">Психіатр, експерт з лікування тривожних розладів та панічних атак у жінок у стаціонарних умовах.
-              Вона використовує методи когнітивно-поведінкової терапії для зниження симптомів та полегшення перебігу
-              захворювання.</p>
-          </div>
-          <div class="st-hero-btn p-3 text-center">
-            <a href="#appointment" class="st-btn st-style2 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
-              id="">Записатись</a>
-          </div>
-        </div>
-        <!-- doc -->
-        
-         <!-- doc -->
-        <div class="card m-3 col-12 col-sm-6 col-md-3">
-          <img src="assets/img/doc/doc_grinberg_4.jpg" class="card-img-top">
-          <div class="card-body">
-            <h4 style="color: #13B3AC;">Павло Грінберг</h4>
-            <p class="card-text">Психіатр і фахівець із психосоматичної медицини, який спеціалізується на зв'язку метаболічних та аутоімунних розладів із психічним здоров'ям. Поєднує медикаментозну терапію з психотерапевтичними підходами для покращення якості життя пацієнтів.</p>
-          </div>
-          <div class="st-hero-btn p-3 text-center">
-            <a href="/doc_grinberg.html" class="st-btn st-style1 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
-              id="">Записатись</a>
-          </div>
-        </div>
-        <!-- doc -->
-        <!-- doc -->
-        <div class="card m-3 col-12 col-sm-6 col-md-3">
-          <img src="assets/img/doc/4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 style="color: #13B3AC;">Олена Жукова</h4>
-            <p class="card-text">Психіатр, спеціалізується на лікуванні розладів настрою та афективних порушень у стаціонарних
-              умовах. Вона володіє ефективними методами фармакотерапії та психотерапії для покращення психічного стану
-              пацієнтів.</p>
-          </div>
-          <div class="st-hero-btn p-3 text-center">
-            <a href="#appointment" class="st-btn st-style2 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
-              id="">Записатись</a>
-          </div>
-        </div>
-        <!-- doc -->
-        
-        <!-- doc -->
-        <div class="card m-3 col-12 col-sm-6 col-md-3">
-          <img src="assets/img/doc/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 style="color: #13B3AC;">Наталія Попова</h4>
-            <p class="card-text">Психіатр, спеціалізується на лікуванні розладів сну та порушень біоритмів у стаціонарних умовах.
-              Вона розробляє індивідуальні програми лікування, включаючи терапію світлом та методи релаксації.</p>
-          </div>
-          <div class="st-hero-btn p-3 text-center">
-            <a href="#appointment" class="st-btn st-style2 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
-              id="">Записатись</a>
-          </div>
-        </div>
-        <!-- doc -->
-         <!-- doc -->
-        <div class="card m-3 col-12 col-sm-6 col-md-3">
-          <img src="assets/img/doc/8.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 style="color: #13B3AC;">Олег Мельник</h4>
-            <p class="card-text">Психіатр, який спеціалізується на лікуванні ОКР у стаціонарних умовах. Він використовує
-              когнітивно-поведінкову терапію та медикаментозне лікування для зменшення симптомів і покращення якості
-              життя пацієнтів.</p>
-          </div>
-          <div class="st-hero-btn p-3 text-center">
-            <a href="#appointment" class="st-btn st-style2 st-color1 st-smooth-move sign_up_for_a_consultation_btn"
-              id="">Записатись</a>
-          </div>
-        </div>
-        <!-- doc -->
+  <div class="container d-flex justify-content-center flex-wrap">
+    
+    <!-- Доктор: Павло Грінберг -->
+    <div class="card m-3 col-12 col-sm-6 col-md-3 position-relative st-doctor-card">
+      <img src="assets/img/doc/doc_grinberg_4.jpg" class="card-img-top" alt="Павло Грінберг">
+      <div class="card-body">
+        <h4 style="color: #13B3AC;">
+          <a href="/doc_grinberg.html" class="stretched-link text-decoration-none" style="color: inherit;">Павло Грінберг</a>
+        </h4>
+        <p class="card-text">Психіатр та спеціаліст із психосоматичної медицини. Спеціалізується на зв'язку метаболічних та аутоімунних розладів із психічним здоров'ям.</p>
       </div>
+      <div class="st-hero-btn p-3 text-center">
+        <!-- Кнопка без дублюючого тегу посилання, або звичайна кнопка, оскільки вся карточка вже клікабельна -->
+        <span class="st-btn st-style1 st-color1">Записатися</span>
+      </div>
+    </div>
+    
+    <!-- Доктор: Тетяна Лисенко -->
+    <div class="card m-3 col-12 col-sm-6 col-md-3 position-relative st-doctor-card">
+      <img src="assets/img/doc/5.jpg" class="card-img-top" alt="Тетяна Лисенко">
+      <div class="card-body">
+        <h4 style="color: #13B3AC;">Тетяна Лисенко</h4>
+        <p class="card-text">Психіатр, експертка з лікування тривожних розладів та панічних атак у жінок у стаціонарних умовах.</p>
+      </div>
+      <div class="st-hero-btn p-3 text-center">
+        <a href="#appointment" class="st-btn st-style2 st-color1 stretched-link">Записатися</a>
+      </div>
+    </div>
+  <!-- Доктор: Тетяна Лисенко -->
+    <div class="card m-3 col-12 col-sm-6 col-md-3 position-relative st-doctor-card">
+      <img src="assets/img/doc/9.jpeg" class="card-img-top" alt="Тетяна Лисенко">
+      <div class="card-body">
+        <h4 style="color: #13B3AC;">Коваль Олена</h4>
+        <p class="card-text">Психіатр, експертка з лікування депресивних станів та важких форм пригніченості.</p>
+      </div>
+      <div class="st-hero-btn p-3 text-center">
+        <a href="#appointment" class="st-btn st-style2 st-color1 stretched-link">Записатися</a>
+      </div>
+    </div>
+    
 
+    <!-- Доктор: Олена Жукова -->
+    <div class="card m-3 col-12 col-sm-6 col-md-3 position-relative st-doctor-card">
+      <img src="assets/img/doc/4.jpg" class="card-img-top" alt="Олена Жукова">
+      <div class="card-body">
+        <h4 style="color: #13B3AC;">Олена Жукова</h4>
+        <p class="card-text">Психіатр, що спеціалізується на лікуванні розладів настрою та афективних порушень у стаціонарних умовах.</p>
+      </div>
+      <div class="st-hero-btn p-3 text-center">
+        <a href="#appointment" class="st-btn st-style2 st-color1 stretched-link">Записатися</a>
+      </div>
+    </div>
 
+    <!-- Доктор: Наталія Попова -->
+    <div class="card m-3 col-12 col-sm-6 col-md-3 position-relative st-doctor-card">
+      <img src="assets/img/doc/1.jpg" class="card-img-top" alt="Наталія Попова">
+      <div class="card-body">
+        <h4 style="color: #13B3AC;">Наталія Попова</h4>
+        <p class="card-text">Психіатр, спеціалізується на лікуванні розладів сну та порушень біоритмів у стаціонарних умовах.</p>
+      </div>
+      <div class="st-hero-btn p-3 text-center">
+        <a href="#appointment" class="st-btn st-style2 st-color1 stretched-link">Записатися</a>
+      </div>
+    </div>
 
+    <!-- Доктор: Олег Мельник -->
+    <div class="card m-3 col-12 col-sm-6 col-md-3 position-relative st-doctor-card">
+      <img src="assets/img/doc/8.jpg" class="card-img-top" alt="Олег Мельник">
+      <div class="card-body">
+        <h4 style="color: #13B3AC;">Олег Мельник</h4>
+        <p class="card-text">Психіатр, спеціалізується на лікуванні ОКР у стаціонарних умовах. Використовує КПТ та медикаментозне лікування.</p>
+      </div>
+      <div class="st-hero-btn p-3 text-center">
+        <a href="#appointment" class="st-btn st-style2 st-color1 stretched-link">Записатися</a>
+      </div>
+    </div>
 
-
-
-
-    </section>
+  </div>
+</section>
     <!-- DOCTORS -->
     <!-- Start Service Section -->
     <section id="appointment" class="st-shape-wrap st-gray-bg">
